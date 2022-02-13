@@ -11,6 +11,8 @@ body{
  background-position: center ;
  background-repeat: no-repeat ;
 
+
+
 }
 h1{
    font-family: 'Times New Roman', serif;
@@ -93,7 +95,22 @@ nav a:hover::before{
 width:100%
 }
 
+#video {
+margin-left: auto;
+margin-right: auto;
+display: block;
+position: relative;
+margin-top: 100px
 
+}
+
+#hoofdtekst { 
+color: white;
+text-align: center;
+font-size:200% ;
+
+
+}
 
 
 
