@@ -9,8 +9,16 @@ padding: 0 ;
 
 h1{
 text-align: center ;
-
+font-size: 300% ;
 }
+
+
+#PageTitle{
+color: royalblue ;
+font-family: "copperplate", fantasy ;
+}
+
+
 
 #textmid {
 width: 80%;
