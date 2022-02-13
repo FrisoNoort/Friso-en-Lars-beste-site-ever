@@ -1,140 +1,124 @@
 body{ 
-#Background-color: rgb(16, 126, 170) ;
 background-image: url('https://media.istockphoto.com/photos/abstract-blue-backgrounds-picture-id1206001151?k=20&m=1206001151&s=612x612&w=0&h=9aEt4WGoWXt0ULB73ycqRxTyvC5v4aRJ7BBVMT7bJ-I=');
 background-size: 100%;
-background-position: center ;
-margin: 0 ;
-padding: 0 ;
+background-position: center;
+margin: 0;
+padding: 0;
 }
 
 h1{
-text-align: center ;
-font-size: 300% ;
+text-align: center;
+font-size: 300%;
 }
-
 
 #PageTitle{
-color: rgb(85, 240, 206) ;
+color: rgb(85, 240, 206);
  font-family: "Times New Roman", serif;
 }
-
-
 
 #textmid {
 width: 50%;
 height: 93%;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: auto;
+margin-right: auto;
 background-color: rgb(17, 222, 236);
 border-radius: 20px 20px 20px 20px;
 }
 
-
-
-
-
-
 container{
-width: 80% ;
-margin: 0 auto ;
-padding: 0
+width: 80%;
+margin: 0 auto;
+padding: 0;
 }
+
 header{
-background: #1df8db ;
-margin: 0 ;
-height: 1
+background: #1df8db;
+margin: 0;
+height: 1;
 }
 
 header::after{
-display: table ; 
-clear: both ;
-content: '' ;
+display: table; 
+clear: both;
+content: '';
 }
 
 logo{
-padding: 10px 0 ;
-float: left ;
-width: 100% ;
-height: 100%
+padding: 10px 0;
+float: left;
+width: 100%;
+height: 100%;
 }
+
 nav{ 
-text-align: center ;
+text-align: center;
 float: left;
 }
 
 nav ul{
-margin-bottom: 35px ;
-padding: 0 ;
-list-style: none ;
-text-align: center ;
-
+margin-bottom: 35px;
+padding: 0;
+list-style: none;
+text-align: center;
 }
 
 nav li{
-  display: inline-block ;
-  margin-left: 60px ;
-  padding-top: 25px ;
-  text-align: center ;
-  position: relative;
-  
+display: inline-block;
+margin-left: 60px;
+padding-top: 25px;
+text-align: center;
+position: relative;
 }
 
 nav a{
-color: #444 ;
-text-decoration: none ;
-text-transform: uppercase ;
-font-size: 20px ;
-text-align: center ;
+color: #444;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+text-align: center;
 }
-nav a:hover{
-  color: black ;
-  background-color: 
+
+nav a:hover{  
+color: black;
 }
 
 nav a::before{
 content: '';
-display: block ;
+display: block;
 height: 5px;
-background-color: #444 ;
-
+background-color: #444;
 position: absolute;
-top: 0 ;
-width: 0% ;
-
-transition: all ease-in-out 250ms ;
+top: 0;
+width: 0%;
+transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before{
-width:100%
+width:100%;
 }
 
-
-h2{margin: 20px;}
+h2{
+margin: 20px;
+}
   
-p{padding-left: 20px;
- padding-right: 20px; 
- color: #232323;
- }
-
+p{
+padding-left: 20px;
+padding-right: 20px; 
+color: #232323;
+}
 
 h3{
-  margin: 20px;
-  
-  }
+margin: 20px;  
+}
 
 #bron{ 
-margin-left: 270px
-
+margin-left: 270px;
 }
 
 h4{
-  margin: 20px;
-  
+margin: 20px;
 }
 
 p1{
-  font-weight: bold
-
+font-weight: bold;
 }
-
-
