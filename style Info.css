@@ -21,7 +21,7 @@ color: rgb(85, 240, 206) ;
 
 
 #textmid {
-width: 80%;
+width: 50%;
 height: 93%;
 margin-left: 10%;
 margin-right: 10%;
@@ -110,12 +110,14 @@ width:100%
 h2{margin: 20px;}
   
 p{padding-left: 20px;
- padding-right: 500px;}
+ padding-right: 20px;}
 
 
 p2{padding-left: 600px;
    padding-right: 20px;
   }
+
+h3{margin: 20px;}
 
 
 

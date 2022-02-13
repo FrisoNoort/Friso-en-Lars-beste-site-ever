@@ -98,7 +98,7 @@ p1{color: #1df8db
   }
 
 body1{
-  color: #1df8db ;
+  color: #000000 ;
   margin: 30px;
   padding: 40px }
 
@@ -106,12 +106,12 @@ body1{
 
 
 #formulier {
-text-align: center;
-width: 100%;
+text-align: left;
+width: 50%;
 height: 93%;
 margin-left: 10px;
-margin-right: 0%;
-background-color: rgb(12, 66, 243);
+margin-right: 10%;
+background-color: rgb(17, 222, 236);
 border-radius: 20px 20px 20px 20px;
 }
 
