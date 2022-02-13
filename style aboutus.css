@@ -1,5 +1,5 @@
 body{
-background-image: url('https://c4.wallpaperflare.com/wallpaper/803/93/200/blue-background-figures-effect-wallpaper-thumb.jpg');  
+background-image: url('https://cdn.wallpapersafari.com/40/98/4nWt0P.jpg');  
   padding:0;
     margin:0;
 
@@ -10,15 +10,11 @@ background-image: url('https://c4.wallpaperflare.com/wallpaper/803/93/200/blue-b
 
 
 h1{
-  color: #1df8db;
+  color: #0e7769;
  font-family: 'Times New Roman', serif;
 text-align: center ;
 font-size: 300% ;
 }
-
-
-
-
 
 container{
 width: 80% ;
@@ -58,7 +54,7 @@ text-align: center ;
 
 nav li{
   display: inline-block ;
-  margin-left: 35px ;
+  margin-left: 60px ;
   padding-top: 25px ;
   text-align: center ;
   position: relative;

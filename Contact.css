@@ -14,7 +14,7 @@ background-image: url('https://wallpapercave.com/wp/5qpCgVq.jpg       ');
 
 
 h1{
-color: #10a6b9;
+color: #1df8db;
 text-align: center ;
 vertical-align: bottom ;
 font-size: 300% ;
@@ -58,7 +58,7 @@ text-align: center ;
 
 nav li{
   display: inline-block ;
-  margin-left: 35px ;
+  margin-left: 60px ;
   padding-top: 25px ;
   text-align: center ;
   position: relative;

@@ -72,7 +72,7 @@ text-align: center ;
 
 nav li{
   display: inline-block ;
-  margin-left: 35px ;
+  margin-left: 60px ;
   padding-top: 25px ;
   text-align: center ;
   position: relative;
@@ -125,8 +125,10 @@ h3{
   
   }
 
-a{padding: 270px;}
+#bron{ 
+margin-left: 270px
 
+}
 
 
 
