@@ -92,11 +92,21 @@ width:100%
 thead{
 color: green ;
 font-size: 150% ;
-
 }
 
 caption{
 font-size: 300% ;
+}
 
+ul{
+font-style: italic ;
+text-align: left;
+}
+ol{
+text-align: left;
+}
+table{
+ margin-left: auto;
+  margin-right: auto;
 
 }

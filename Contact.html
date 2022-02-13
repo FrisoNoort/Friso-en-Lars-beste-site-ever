@@ -1,109 +1,89 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>PO Inf Machine learning </title>
-	<link href="Contact.css" rel="stylesheet" type="text/css" />
-</head>
-
+  <head>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width">
+	 <title>PO Inf Machine learning </title>
+	 <link href="Contact.css" rel="stylesheet" type="text/css" />
+  </head>
 
 <body>
   
-<header>
-
-
-
-<div class= "container"> 
-
-<img src="images/logo.png" width="100"  height="100" align="right">
-<nav>
- <ul>
-   <li><a href="index.html">Home</a></li>
-   <li><a
-    href="Info.html">What is it?</a></li>
-   <li><a href="AboutUs.html">About us</a></li>
-   <li><a href="Contact.html">Contact</a></li>
- </ul>
-</nav>
-</div>
-</header>
+ <header>
+  <div class= "container"> 
+   <img src="images/logo.png" width="100"  height="100" align="right">
+   <nav>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Info.html">What is it?</a></li>
+     <li><a href="AboutUs.html">About us</a></li>
+     <li><a href="Contact.html">Contact</a></li>
+    </ul>
+   </nav>
+  </div>
+ </header>
 
 <h1> Contact </h1>
   
 <form>
-  <fieldset>
+ <fieldset>
   <body1>  
-  
-<center>    
+   <center>    
+    <div id="formulier">
+     <form method="post" action="mailto: 110934@st-maartenscollege.nl">
+     <table>
 
-<div id="formulier">
+      <tr>
+       <th><em>Voornaam:</em></th>
+       <th> <input type="text" size="20" maxlength="40" placeholder="voornaam " name="voornaam" required></th>
+      </tr> 
+       
+      <tr>
+       <th><em>Achternaam:</em></th>
+       <th>
+       <input type="text" size="20" maxlength="40" placeholder= "achternaam" name="achternaam" required><br>
+       </th>
+      </tr>
 
-<form method="post" action="mailto: 110934@st-maartenscollege.nl">
+      <tr>
+       <th>
+        <em> Telefoonnummer:</em>
+       </th>
+       <th>
+        <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder = "telefoonnummer" name="telefoonnummer" required><br>
+       </th>
+      </tr>
 
+      <tr> 
+       <th>
+        <em> Gender:</em>
+        <p><input type="radio" name="areyou" value="male"> Male</p>
+        <p><input type="radio" name="areyou" value="female"> Female</p>
+        <p><input type="radio" name="areyou" value="hermaphrodite"> Other</p>
+        <p><input type="radio" name="areyou" value="asexual"> Private</p>
+       </th>
+      </tr>
 
-<table>
-  <tr>
-    <th>
-    
-<em>Voornaam:</em>
-</th>
-<th>
-<input type="text" size="20" maxlength="40" placeholder="voornaam " name="voornaam" required><br>
-</th>
-  </tr>
-
-<tr>
-  <th>
-<em>Achternaam:</em>
-</th>
-<th>
-<input type="text" size="20" maxlength="40" placeholder= "achternaam" name="achternaam" required><br>
-</th>
-</tr>
-
-<tr>
-  <th>
-<em> Telefoonnummer:</em>
-  </th>
-  <th>
-<input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder = "telefoonnummer" name="telefoonnummer" required><br>
-  </th>
-  </tr>
-
- <tr> 
-   <th>
-  <em> Gender:</em>
- <p><input type="radio" name="areyou" value="male"> Male</p>
-    <p><input type="radio" name="areyou" value="female"> Female</p>
-    <p><input type="radio" name="areyou" value="hermaphrodite"> Other</p>
-    <p><input type="radio" name="areyou" value="asexual"> Private</p>
-</th>
-</tr>
-
-
-
-<tr>
-  <th>
-<em> Land :</em>
-  </th>
-  <th>
-<select name="Kies land hier">
-<option> Nederland </option>
-<option> Duitsland </option>
-<option> Frankrijk </option>
-<option> Engeland </option>
-<option> Spanje </option>
-<option> Zweden </option>
-<option> Finland </option>
-<option> Griekenland </option>
-<option> Hongarije </option>
-<option> Italië</option>
-<option> Tjechië</option>
-</select><br>
-  </th>
-  </tr>
+      <tr>
+       <th>
+        <em> Land :</em>
+       </th>
+       <th>
+        <select name="Kies land hier">
+        <option> Nederland </option>
+        <option> Duitsland </option>
+        <option> Frankrijk </option>
+        <option> Engeland </option>
+        <option> Spanje </option>
+        <option> Zweden </option>
+        <option> Finland </option>
+        <option> Griekenland </option>
+        <option> Hongarije </option>
+        <option> Italië</option>
+        <option> Tjechië</option>
+        </select><br>
+       </th>
+      </tr>
 
 
 
