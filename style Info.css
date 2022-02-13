@@ -107,6 +107,8 @@ transition: all ease-in-out 250ms ;
 nav a:hover::before{
 width:100%
 }
+
+
 h2{margin: 20px;}
   
 p{padding-left: 20px;
@@ -117,7 +119,14 @@ p2{padding-left: 600px;
    padding-right: 20px;
   }
 
-h3{margin: 20px;}
+h3{
+  margin: 20px;
+  
+  
+  }
+
+a{padding: 270px;}
+
 
 
 
