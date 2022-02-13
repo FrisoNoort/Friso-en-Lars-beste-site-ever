@@ -112,16 +112,13 @@ width:100%
 h2{margin: 20px;}
   
 p{padding-left: 20px;
- padding-right: 20px;}
+ padding-right: 20px; 
+ color: #232323;
+ }
 
-
-p2{padding-left: 600px;
-   padding-right: 20px;
-  }
 
 h3{
   margin: 20px;
-  
   
   }
 
@@ -130,6 +127,9 @@ margin-left: 270px
 
 }
 
-
+h4{
+  margin: 20px;
+  
+}
 
 

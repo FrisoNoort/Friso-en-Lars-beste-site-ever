@@ -33,6 +33,7 @@
 <h1> Contact </h1>
   
 <form>
+  <fieldset>
   <body1>  
   
 <center>    
@@ -67,7 +68,7 @@
 <em> Telefoonnummer:</em>
   </th>
   <th>
-<input type="text" size="20" maxlength="12" placeholder = "telefoonnummer" name="telefoonnummer" required><br>
+<input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder = "telefoonnummer" name="telefoonnummer" required><br>
   </th>
   </tr>
 
@@ -95,9 +96,11 @@
 <option> Engeland </option>
 <option> Spanje </option>
 <option> Zweden </option>
-<option> Engeland </option>
-<option> Engeland </option>
-<option> Engeland </option>
+<option> Finland </option>
+<option> Griekenland </option>
+<option> Hongarije </option>
+<option> Italië</option>
+<option> Tjechië</option>
 </select><br>
   </th>
   </tr>
@@ -110,7 +113,7 @@
 <em> Mail:</em>
   </th>
   <th>
-<input type="text" size="20" maxlength="40" placeholder="Mail" name="Mail" required><br>
+<input type="email" size="20" maxlength="40" placeholder="Mail" name="Mail" required><br>
   </th>
   </tr>
 
@@ -132,8 +135,9 @@
   </th>
   </tr>
 </table>
-
+</fieldset>
 </form>
+
 </div>
 
 </center>
