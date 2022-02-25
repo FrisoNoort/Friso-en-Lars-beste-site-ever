@@ -109,7 +109,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   header nav a{
     font-size:80%;
   }
@@ -118,15 +118,7 @@ margin-right: auto;
     margin-left:10px;
     font-size: 
   }
-
- img{
+ header img{
    width: 75px;
    height: 75px;
  }
-body{
-  background-repeat: repeat;
-}
-  #video{
-    display:none;
-  }
-}

@@ -104,7 +104,7 @@ text-align: center;
 font-size:200%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   header nav a{
     font-size:80%;
   }
@@ -118,6 +118,7 @@ font-size:200%;
    width: 75px;
    height: 75px;
  }
+  
 body{
   background-repeat: repeat;
 }
@@ -126,4 +127,26 @@ body{
   }
 }
 
+@media screen and (max-width: 550px) {
+  header nav a{
+    font-size:80%;
+  }
+
+  header nav li{
+    margin-left:10px;
+    font-size: 
+  }
+
+ header img{
+   width: 75px;
+   height: 75px;
+ }
+#hoofdtekst{
+  font-size: 120%;
+}
+}
+
+@media screen and (min-width:550px){
+
   
+}

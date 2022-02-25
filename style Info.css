@@ -123,36 +123,18 @@ p1{
 font-weight: bold;
 }
 
-@media screen and (max-width: 375px) {
-  header nav a{
-    font-size:80%;
-  }
-
-  header nav li{
-    margin-left:10px;
-    font-size: 
-  }
-
- #container img{
-   width: 75px;
-   height: 75px;
- }
-body{
-  background-repeat: repeat;
+.img1{
+  width: 100%;
 }
-  #video{
-    display:none;
-  }
-}
-
-
 @media screen and (max-width: 412px) {
   #textmid{
     width: 96%;
   }
-  
- 
- }
+
+  body p img{
+    width:100%;
+  }
+
 
   header nav a{
     font-size:80%;
@@ -174,5 +156,26 @@ body{
     display:none;
   
 }
+
+ body p img{
+  width: 90%;
+}
+}
+
+@media screen and (max-width: 550px) {
+  header nav a{
+    font-size:80%;
+  }
+  
+
+  header nav li{
+    margin-left:10px;
+    font-size: 
+  }
+
+ header img{
+   width: 75px;
+   height: 75px;
+ }
 
 
