@@ -1,12 +1,10 @@
 body{
-background-image: 
-url('https://wallpapercave.com/wp/5qpCgVq.jpg ');   
-  padding:0;
-    margin:0;
- background-size: cover;
- background-position: center ;
- background-repeat: repeat ;
-
+background-image: url("https://www.teahub.io/photos/full/220-2208960_dark-blue-lines-4k-material-design-creative-geometric.jpg");  
+padding:0;
+margin:0;
+background-size: cover;
+background-position: center ;
+background-repeat: repeat ;
 }
 
 h1{
@@ -17,9 +15,8 @@ font-size: 300% ;
 font-family: "copperplate", fantasy ;
 }
 container{
-width: 80% ; ;
+width: 80% ;
 padding: 0 ;
-
 }
 
 header{
