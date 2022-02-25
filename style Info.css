@@ -122,3 +122,57 @@ margin: 20px;
 p1{
 font-weight: bold;
 }
+
+@media screen and (max-width: 375px) {
+  header nav a{
+    font-size:80%;
+  }
+
+  header nav li{
+    margin-left:10px;
+    font-size: 
+  }
+
+ #container img{
+   width: 75px;
+   height: 75px;
+ }
+body{
+  background-repeat: repeat;
+}
+  #video{
+    display:none;
+  }
+}
+
+
+@media screen and (max-width: 412px) {
+  #textmid{
+    width: 96%;
+  }
+  
+ 
+ }
+
+  header nav a{
+    font-size:80%;
+  }
+
+  header nav li{
+    margin-left:10px;
+    font-size: 
+  }
+
+ #container img{
+   width: 75px;
+   height: 75px;
+ }
+body{
+  background-repeat: repeat;
+}
+  #video{
+    display:none;
+  
+}
+
+
